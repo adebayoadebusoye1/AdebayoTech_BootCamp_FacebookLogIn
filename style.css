@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F2F4F7;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 130vh;
+}
+
+:root{
+    --box-shadow: 0 .5rem 1.1rem rgba(0,0,0,.1);
+
+}
+
+.facebook{
+    display: flex;
+}
+.left{
+    float: left;
+    width: 50%;
+    padding: 80px;
+    margin: 20px;
+
+}
+
+#fb{
+    width: 70%;
+    height: 70%;
+   
+}
+
+#connect{
+    position: absolute;
+    top: 180px;
+    
+}
+
+.right{
+    float: right;
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    width: 40%;
+    height:290px;
+    background-color: #ffffff;
+    padding: 40px;
+    padding-right: 10px;
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+
+}
+
+#email{
+    margin-bottom: 10px;
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0.9px solid  #DDDFE2;
+
+}
+
+#email:hover{
+    border: 0.9px solid  blue;
+}
+#password:hover{
+    border: 0.9px solid  blue;
+}
+#password{
+    margin-bottom: 13px;
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0.9px solid  #DDDFE2;
+}
+
+#forgot{
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#forgot:hover{
+    text-decoration: underline;
+    
+
+}
+
+#login{
+    background-color: #0866FF;
+    width: 90%;
+    height: 35px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+
+#newAcc{
+    background-color: #42B72A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    font-weight: 550;
+    position: relative;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#create{
+    font-size: 12px;
+    margin-left: 3face0px;
+}
